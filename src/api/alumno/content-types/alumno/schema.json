@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alumnos",
+  "info": {
+    "singularName": "alumno",
+    "pluralName": "alumnos",
+    "displayName": "alumno",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Expediente": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "email"
+    },
+    "Estatus": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "string"
+    },
+    "semestre": {
+      "type": "string"
+    }
+  }
+}

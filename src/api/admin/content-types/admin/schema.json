@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "admins",
+  "info": {
+    "singularName": "admin",
+    "pluralName": "admins",
+    "displayName": "admin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Expediente": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "email"
+    },
+    "Materias": {
+      "type": "string"
+    },
+    "Horario": {
+      "type": "string"
+    },
+    "pass": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
