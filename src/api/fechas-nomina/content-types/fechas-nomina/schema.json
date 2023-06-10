@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fechas_nominas",
+  "info": {
+    "singularName": "fechas-nomina",
+    "pluralName": "fechas-nominas",
+    "displayName": "fechasNomina",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Expediente": {
+      "type": "string"
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "Importe": {
+      "type": "string"
+    },
+    "Fecha": {
+      "type": "string"
+    }
+  }
+}

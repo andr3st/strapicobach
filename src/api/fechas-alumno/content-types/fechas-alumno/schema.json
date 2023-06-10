@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fechas_alumnos",
+  "info": {
+    "singularName": "fechas-alumno",
+    "pluralName": "fechas-alumnos",
+    "displayName": "fechasAlumno"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "Expediente": {
+      "type": "string"
+    },
+    "Importe": {
+      "type": "string"
+    },
+    "Fecha": {
+      "type": "string"
+    }
+  }
+}
